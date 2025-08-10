@@ -1,0 +1,94 @@
+ *{
+    background-color: black;
+    color: white;
+ }
+ .nav{
+    height: 50px;
+    width : 100%;
+    font-size: 30px;
+    border-bottom: 0.01px solid rgb(159, 156, 156);
+    
+ }
+
+
+.sunny{
+  margin-left: 500px;
+  
+}
+.watch{
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+}
+.watch div{
+    height: 180px;
+    width: 140px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    margin: 20px;
+    border-radius: 30px;
+}
+button{
+    text-align: center;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    margin: 10px;
+    font-weight: 550;
+    font-size: 18px;
+}
+.btn{
+    text-align: center;
+}
+.reset{
+    background-color: rgb(74, 69, 69);
+    border: none;
+}
+.start{
+    border: none;
+    background-color: rgb(7, 94, 129);
+}
+.stop{
+    border: none;
+    background-color: red;
+}
+.light , .light p ,.light  h2 , .light ul , .light li , .light div>h3+div>table , .light span , .light div>h3+div>table+div , .light .stopwatch-laps
+, .light div>h3 , .light .laps-container , .light  .stopwatch-laps .laps-table>tr>th{
+    background-color: white;
+    color: black;
+}
+.info-article{
+ margin-top: 50px;
+ border-top: 1px solid white;
+}
+.msecs{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.minutes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.secs{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+table{
+    /* border: 2px solid white; */
+    display: grid;
+    column-gap: 100px;
+    row-gap: 100px;
+    border-spacing: 110px 15px ;
+}

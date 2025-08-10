@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StopWatch</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=watch" />
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sunny" />
+</head>
+
+<body>
+   <div class="container">
+   <div class="nav">
+     <span class="watch-symbol"> <span class="material-symbols-outlined ">
+         watch
+      </span>
+      </span>
+      <span class="stopwatch">stopwatch</span>
+      <span class="sunny"><span class="material-symbols-outlined">
+         sunny
+      </span></span>
+   </div>
+   <div class="content-wraper">
+   <div class="watch">
+   
+   <div class="minutes"></div>
+   <div class="secs"></div>
+   <div class="msecs"></div>
+   
+    </div>
+
+  <div class="btn">
+   <button class="reset">Reset</button>
+   <button class="start">Start</button>
+   <button class="stop">Stop</button>
+ 
+<div class="lap">
+<div class="stopwatch-laps setup-section">
+      <h3 class="section-title">Lap Times</h3>
+      <div id="laps-container">
+         <table class="laps-table" id="laps-table">
+            <thead>
+               <tr>
+                  <th>Lap</th>
+                  <th>Lap Time</th>
+                  <th>Total Time</th>
+               </tr>
+            </thead>
+            <tbody id="laps-table-body"></tbody>
+         </table>
+         <!-- <div id="no-laps-message" class="no-laps-message" style="display: block;">No laps recorded yet</div> -->
+      </div>
+   </div>
+   </div> 
+   </div>
+   </div>
+   <article class="info-article">
+      <h2>What is an Online Stopwatch?</h2>
+      <p>An online stopwatch measures elapsed time, just like physical stopwatch. It start counting up from zero when
+         you begin. This stopwatch uses flipping numbers.</p>
+
+      <h2>How to Use This Stopwatch</h2>
+      <p>Using this stopwatch is simple.</p>
+      <ul>
+         <li>Press the 'Start' button to begin timing. The hours, minutes, seconds, and centiseconds will start counting
+            up.</li>
+         <li>Press the 'Pause' button to stop the count temporarily.</li>
+         <li>Press 'Start' again to resume counting from where you paused.</li>
+         <li>Press the 'Lap' button while the stopwatch runs. This record the current time without stopping the count.
+            Lap times appear in the table below.</li>
+         <li>Press the 'Reset' button only when the stopwatch is paused. This sets the time back to zero and clears all
+            recorded lap times.</li>
+      </ul>
+      <p>The display shows the time passing with flipping numbers, including fractions of a second for accuracy.</p>
+   </article>
+   </div>
+   <script src="app.js"></script>
+</body>
+
+</html>
